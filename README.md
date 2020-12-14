@@ -51,8 +51,7 @@ Aduh, bengek hyung 😭
 
   Atau mau lebih cepat lagi, tanpa Terminal? Klik tombol di bawah ini, lalu klik Run.
 
-    [![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@Quiec/whatsasena)
-
+  [![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@Quiec/whatsasena)
 
 2. **HARUS CEPAT!!!**<br>
 Balik ke HP yang WAnya mau dipasang bot, buka **Titik 3 -> Pengaturan -> WhatsApp Web**, lalu scan QR code yang di Termux.<br>
