@@ -26,7 +26,7 @@ Bot ini dibuat hanya untuk senang-senang semata,
 dan juga untuk memudahkan dalam mengurus grup.
 Tetapi Anda, menggunakan bot ini untuk nyepam di grup-grup, 
 terus di-report kiri kanan,
-dan setelah itu, pihak WhatsApp pusat mem-banned akun Anda?
+dan akhirnya, pihak WhatsApp pusat mem-banned akun Anda?
 Dan setelah itu, Anda menyalahkan kami
 setelah mendapati bahwa akun Anda di-banned?
 Aduh, bengek hyung 😭
