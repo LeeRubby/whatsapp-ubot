@@ -71,7 +71,8 @@ Balik ke HP yang WAnya mau dipasang bot, buka **Titik 3 -> Pengaturan -> WhatsAp
 4. Kalo mau bahasa Indonesia, di `LANGUAGE` isi `ID`
 5. Sisanya isi sesuai hati nurani.
 6. Tunggu prosesnya selesai, setelah itu klik **Manage App**, lalu klik **Resources**, nyalain dyno, dan silahkan tonton log.<br>
-Kalo berhasil, selamat anda punya bot! Coba tes `.alive` kalo mau tau hidup apa nggaknya.
+Kalo berhasil, selamat anda punya bot! Coba tes ketik `.alive` di chat kalo mau tau hidup apa nggaknya.<br>
+Kalo mau lihat daftar perintah, ketik `.usrhelp` di chat.
 
 ## F.A.Q
 Beberapa pertanyaan yang sering diajukan:
