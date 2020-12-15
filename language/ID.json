@@ -32,7 +32,7 @@
             "ADD_DESC": "Menambahkan seseorang ke grup",
             "ADDED": "ditambahkan ke grup!",
             "ALREADY_PROMOTED": "```Bagaimana cara menjadikan seseorang admin yang sudah menjadi admin?```",
-            "PROMOTED": "```, peran admin telah diberikan!```",
+            "PROMOTED": "```, telah dijadikan sebagai admin!```",
             "PROMOTE_DESC": "Menjadikan orang tersebut sebagai admin.",
             "DEMOTE_DESC": "Melengserkan jabatan admin orang lain.",
             "ALREADY_NOT_ADMIN": "```Bagaimana cara menjadikan seseorang admin yang sudah menjadi admin?```",
