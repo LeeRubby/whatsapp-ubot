@@ -32,7 +32,7 @@
             "ADD_DESC": "Menambahkan seseorang ke grup",
             "ADDED": "ditambahkan ke grup!",
             "ALREADY_PROMOTED": "```Bagaimana cara menjadikan seseorang admin yang sudah menjadi admin?```",
-            "PROMOTED": "```, telah dijadikan sebagai admin!```",
+            "PROMOTED": "```, peran admin telah diberikan!```",
             "PROMOTE_DESC": "Menjadikan orang tersebut sebagai admin.",
             "DEMOTE_DESC": "Melengserkan jabatan admin orang lain.",
             "ALREADY_NOT_ADMIN": "```Bagaimana cara menjadikan seseorang admin yang sudah menjadi admin?```",
@@ -41,7 +41,7 @@
             "MUTED": "```Grup dikunci!```",
             "UNMUTE_DESC": "Suarakan obrolan grup. Siapapun bisa mengirim pesan.",
             "UNMUTED": "```Grup telah dibuka!```",
-            "INVITE_DESC": "Memberikan link invite ke grup.",
+            "INVITE_DESC": "Memberikan link invite ke grup",
             "INVITE": "```Link invite:```"
         },
         "afk": {
@@ -73,8 +73,8 @@
             "DYNO_LEFT": "```Dyno tersisa bulan ini```",
             "SETVAR_DESC": "Atur heroku config var",
             "SET_SUCCESS": "Berhasil disetel ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "```Tidak ditemukan```",
-            "INVALID": "```Format tidak valid: format nilai```",
+            "KEY_VAL_MISSING": "```Baik Kunci atau Nilai tidak ada```",
+            "INVALID": "```Kunci tidak valid: format nilai```",
             "GETVAR_DESC": "Cek heroku config var",
             "DELVAR_DESC": "Hapus heroku config var",
             "DEL_SUCCESS": "```{} berhasil dihapus```",
@@ -83,12 +83,12 @@
         "nekobin": {
             "NEKO_DESC": "Pesan yang dibalas akan ditambahkan ke nekobin.com.",
             "NEED_REPLY": "```Harap balas pesan!```",
-            "MUST_TEXT": "```Harap balas pesan apa pun```"
+            "MUST_TEXT": "```Balas ke teks!```"
         },
         "filters": {
-            "FILTER_DESC": "Menambahkan filter. Jika seseorang menulis kata yang ada dalam filter Anda, maka bot akan membalas dengan jawabannya. Jika Anda hanya menulis .filter, maka akan menunjukkan daftar filter Anda.```",
-            "NO_FILTER": "*❌ Tidak ada filter dalam obrolan ini!*",
-            "FILTERS": "*🔎 Filter Anda dalam obrolan ini::*",
+            "FILTER_DESC": "Menambahkan filter. Jika seseorang menulis kata yang ada dalam filter Anda, maka bot akan membalas dengan jawabannya. Jika Anda hanya menulis .filter, maka akan menunjukkan daftar filter Anda.",
+            "NO_FILTER": "*❌ Tidak ada filter dalam chat ini!*",
+            "FILTERS": "*🔎 Filter Anda dalam chat ini::*",
             "NEED_REPLY": "*❌ Silahkan ketik dibalasan!*\n*Contoh:*",
             "FILTERED": "*✅ Berhasil disetel* ```{}``` *untuk filter!*",
             "STOP_DESC": "Menghentikan filter yang Anda tambahkan sebelumnya.",
@@ -129,43 +129,40 @@
         },
         "removebg": {
             "REMOVEBG_DESC": "Menghapus latar belakang foto.",
-            "NEED_PHOTO": "*Beri aku foto!*",
+            "NEED_PHOTO": "*Balas ke foto!*",
             "NO_API_KEY": "*Kamu belum menyetel API key!*\nDapatkan disini: remove.bg.",
             "RBGING": "```Menghapus latar belakang...```"
         },
         "scrapers": {
-            "TRANSLATE_DESC": "Diterjemahkan dengan Google Translate. Balas pesan apapun.",
+            "TRANSLATE_DESC": "Terjemahkan dengan Google Translate.",
             "TRANSLATE_USAGE": ".trt en id (Dari Inggris ke Indonesia)",
-            "NEED_REPLY": "```Harap balas pesan!```",
+            "NEED_REPLY": "```Balas ke pesan!```",
             "LANG": "Ke",
             "FROM": "Dari",
-            "RESULT": "Diterjemahkan",
+            "RESULT": "Hasil terjemahan",
             "TRANSLATE_ERROR": "\"❌ Terjadi kesalahan dalam terjemahan!*",
             "CURRENCY_ERROR": "```Format salah! Contoh: .currency 1 USD IDR```",
             "INVALID_CURRENCY": "```Pengonversian mata uang gagal. Anda menulis mata uang yang salah!```",
             "UNKNOWN_ERROR": "```Terjadi kesalahan. Pengonversian mata uang gagal!```",
-            "TTS_DESC": "Ini mengubah teks menjadi suara.",
-            "TTS_ERROR": "```Kesalahan, Contoh ucapan kalimat Anda tidak dapat dibuat!```",
-            "SONG_DESC": "Mendownload lagu dari YouTube atau Spotify.",
-            "NEED_TEXT_SONG": "*Format salah!*\n*Contoh:* ```.ripaudio matamu cover - stephanie poetri``` atau "
-            ``
-            `.ripaudio (link YT)`
-            ``,
+            "TTS_DESC": "Mengubah teks menjadi suara.",
+            "TTS_ERROR": "```Error, tidak dapat mengubah teks menjadi suara.```",
+            "SONG_DESC": "Mendownload lagu dari YouTube.",
+            "NEED_TEXT_SONG": "*Format salah!*\n*Contoh:* ```.ripaudio (link YT)``` atau ```.ripaudio Darude - Sandstorm```",
             "NO_RESULT": "*Saya tidak dapat menemukan apa pun :(*",
             "DOWNLOADING_SONG": "```Mendownload lagu...```",
-            "UPLOADING_SONG": "```Mengupload lagu...```",
+            "UPLOADING_SONG": "```Mengupload lagu Anda...```",
             "VIDEO_DESC": "Mendownload video dari YouTube.",
             "NEED_VIDEO": "*Harap masukkan link video!*\n*Contoh:* ```.ripvideo https://www.youtube.com/watch?v=nAFlVm5qeBc```",
             "DOWNLOADING_VIDEO": "```Mendownload video...```",
             "UPLOADING_VIDEO": "```Mengupload video...```",
             "YT_DESC": "Mencari di YouTube.",
             "NEED_WORDS": "```Tolong tuliskan beberapa kata!```",
-            "GETTING_VIDEOS": "```Mencari ...```",
+            "GETTING_VIDEOS": "```Mencari...```",
             "NOT_FOUND": "*Saya tidak dapat menemukan apa pun :(*",
             "SEARCHING": "*🔎 Mencari ...*",
             "WIKI_DESC": "Mencari di Wikipedia.",
-            "IMG_DESC": "Mengambil foto dari Google.",
-            "IMG": "Mengupload foto```{}``` number ```{} `..."
+            "IMG_DESC": "Mencari gambar dari Google.",
+            "IMG": "Mengupload gambar```{}``` number ```{} `..."
         },
         "sticker": {
             "STICKER_DESC": "Mengubah foto atau video menjadi stiker.",
@@ -180,14 +177,14 @@
             "TAGALL_DESC": "Mengetag semua orang di grup."
         },
         "updater": {
-            "UPDATER_DESC": "Periksa pembaruan.",
-            "UPDATE": "*Bot Anda benar-benar terbaru!*",
-            "NEW_UPDATE": "*Pembaruan baru tersedia untuk Bot!*\n\nPerubahan:\n```",
-            "UPDATE_NOW_DESC": "Itu membuat pembaruan.",
+            "UPDATER_DESC": "Cek update.",
+            "UPDATE": "*Bot Anda dalam versi terbaru!*",
+            "NEW_UPDATE": "*Update baru tersedia untuk Bot!*\n\nChangelog:\n```",
+            "UPDATE_NOW_DESC": "Mengupdate.",
             "UPDATING": "_Memperbarui..._",
             "INVALID_HEROKU": "*❌ Informasi Heroku Anda salah!*",
-            "UPDATED": "*✅ Pembaruan berhasil!*",
-            "UPDATED_LOCAL": "*✅ Pembaruan berhasil! *\n_Anda harus memulai ulang untuk perubahan._"
+            "UPDATED": "*✅ Update berhasil!*",
+            "UPDATED_LOCAL": "*✅ Update berhasil! *\n_Silahkan restart bot._"
         },
         "weather": {
             "WEATHER_DESC": "Menunjukkan cuaca.",
@@ -204,8 +201,8 @@
             "SPEEDTEST_DESC": "Menguji kecepatan download dan upload.",
             "SPEEDTESTING": "```Menguji kecepatan...```",
             "SPEEDTEST_RESULT": "*Uji kecepatan selesai!*",
-            "UPLOAD": "Unggah",
-            "DOWNLOAD": "Unduh",
+            "UPLOAD": "Upload",
+            "DOWNLOAD": "Download",
             "PING_DESC": "Mengukur ping anda."
         }
     }
