@@ -59,7 +59,6 @@ Asena.addCommand({pattern: 'usage', fromMe: true, desc: Lang.DYNO_DESC}, (async 
            percentage = Math.round((quota_used / total_quota) * 100);
            remaining = total_quota - quota_used;
            await message.sendMessage(
-                Lang.DYNO_TOTAL + ":\n ```{}```\n\n".format(secondsToHms(total_quota))  + 
                 Lang.DYNO_USED + ":\n ```{}```\n".format(secondsToHms(quota_used)) +  
                 Lang.DYNO_LEFT + ":\n ```{}```\n".format(secondsToHms(remaining))
            );
