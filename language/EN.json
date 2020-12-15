@@ -37,10 +37,10 @@
             "DEMOTE_DESC": "Takes the authority of any admin.",
             "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
             "DEMOTED": "```, has been demoted!```",
-            "MUTE_DESC": "Mute the group chat. Only the admins can send a message.",
-            "MUTED": "```Group chat muted!```",
-            "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
-            "UNMUTED": "```The group chat has unmuted!```",
+            "MUTE_DESC": "Lock the group chat. Only the admins can send a message.",
+            "MUTED": "```Group chat locked!```",
+            "UNMUTE_DESC": "Unlock the group chat. Anyone can send a message.",
+            "UNMUTED": "```The group chat has unlocked!```",
             "INVITE_DESC": "Provides the group's invitation link.",
             "INVITE": "```Invitation link: ```"
         },
@@ -83,7 +83,7 @@
             "GETVAR_DESC": "Get heroku config var",
             "DELVAR_DESC": "Delete heroku config var",
             "DEL_SUCCESS": "```{} successfully deleted```",
-            "NOT_FOUND": "```no results found for this key```"           
+            "NOT_FOUND": "```no results found for this key```"
         },
         "filters": {
             "FILTER_DESC": "It adds a filter. If someone writes your filter, it send the answer. If you just write .filter, it show's your filter list.",

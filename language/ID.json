@@ -150,7 +150,7 @@
             "NEED_TEXT_SONG": "*Format salah!*\n*Contoh:* ```.ripaudio (link YT)``` atau ```.ripaudio Darude - Sandstorm```",
             "NO_RESULT": "*Saya tidak dapat menemukan apa pun :(*",
             "DOWNLOADING_SONG": "```Mendownload lagu...```",
-            "UPLOADING_SONG": "```Mengupload lagu Anda...```",
+            "UPLOADING_SONG": "```Mengupload lagu...```",
             "VIDEO_DESC": "Mendownload video dari YouTube.",
             "NEED_VIDEO": "*Harap masukkan link video!*\n*Contoh:* ```.ripvideo https://www.youtube.com/watch?v=nAFlVm5qeBc```",
             "DOWNLOADING_VIDEO": "```Mendownload video...```",
