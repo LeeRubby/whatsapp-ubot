@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "Indonesia",
     "LANGCODE": "in",
-    "AUTHOR": "@elzeXD(telegram) / Vincent S",
+    "AUTHOR": "@todayisshitday(telegram) / Avi Patil",
     "STRINGS": {
         "_asena": {
             "COMMAND": "Perintah",
@@ -25,60 +25,60 @@
             "DELETED": "*✅ Modul berhasil dihapus! Anda harus memulai ulang agar perubahan diterapkan.*"
         },
         "admin": {
-            "BAN_DESC": "Membanned seseorang dalam grup.",
+            "BAN_DESC": "Ban seseorang dalam grup. Balas pesan atau tandai seseorang untuk menggunakan perintah.",
             "IM_NOT_ADMIN": "*Saya bukan admin di grup ini!*",
             "BANNED": "dikeluarkan dari grup!",
-            "GIVE_ME_USER": "*Harap balas ke pesan atau tag orangnya!*",
+            "GIVE_ME_USER": "*Beri saya pengguna!*",
             "ADD_DESC": "Menambahkan seseorang ke grup",
             "ADDED": "ditambahkan ke grup!",
             "ALREADY_PROMOTED": "```Bagaimana cara menjadikan seseorang admin yang sudah menjadi admin?```",
             "PROMOTED": "```, peran admin telah diberikan!```",
-            "PROMOTE_DESC": "Menjadikan orang tersebut sebagai admin.",
-            "DEMOTE_DESC": "Melengserkan jabatan admin orang lain.",
+            "PROMOTE_DESC": "Menjadikan setiap orang sebagai admin.",
+            "DEMOTE_DESC": "Mengambil otoritas admin mana pun.",
             "ALREADY_NOT_ADMIN": "```Bagaimana cara menjadikan seseorang admin yang sudah menjadi admin?```",
             "DEMOTED": "```, telah diturunkan pangkatnya!```",
-            "MUTE_DESC": "Kunci grup, hanya admin yang bisa mengirim pesan.",
-            "MUTED": "```Grup dikunci!```",
+            "MUTE_DESC": "Bisukan obrolan grup. Hanya admin yang bisa mengirim pesan.",
+            "MUTED": "```Obrolan grup dibisukan!```",
             "UNMUTE_DESC": "Suarakan obrolan grup. Siapapun bisa mengirim pesan.",
-            "UNMUTED": "```Grup telah dibuka!```",
-            "INVITE_DESC": "Memberikan link invite ke grup.",
-            "INVITE": "```Link invite:```"
+            "UNMUTED": "```Obrolan grup telah disuarakan!```",
+            "INVITE_DESC": "Memberikan tautan undangan grup.",
+            "INVITE": "```Tautan undangan:```"
         },
         "afk": {
-            "AFK_DESC": "Membuat Anda AFK.",
+            "AFK_DESC": "Itu membuat Anda AFK.",
             "IM_AFK": "*Saya AFK sekarang!*",
             "IM_AFK_NOMD": "Saya AFK sekarang!",
             "REASON": "Alasan",
             "LAST_SEEN": "Terakhir dilihat",
             "IM_NOT_AFK": "```Saya tidak lagi AFK!```",
-            "AFK_TEXT": "```Hai! Ini adalah pesan otomatis dari bot. Mohon tunggu majikanku untuk membalas.```",
-            "AFK_TEXT_NOMD": "Hai! Ini adalah pesan otomatis dari bot. Mohon tunggu majikanku untuk membalas.",
+            "AFK_TEXT": "```Bip bop! Ini adalah bot. Pemilik saya tidak ada di sini saat ini.```",
+            "AFK_TEXT_NOMD": "Bip bop! Ini adalah bot. Pemilik saya tidak ada di sini saat ini.",
             "HOUR": "jam",
             "MINUTE": "menit",
             "SECOND": "detik"
         },
         "evaluators": {
-            "TERM_DESC": "Jalankan perintah terminal.",
-            "GIVE_ME_CODE": "*Perintah tidak valid!*"
+            "TERM_DESC": "Memungkinkan untuk menjalankan perintah di shell server.",
+            "GIVE_ME_CODE": "*Beri aku kode!*"
         },
         "heroku": {
-            "RESTART_DESC": "Restart bot",
-            "RESTART_MSG": "```Merestart bot...```",
-            "SHUTDOWN_DESC": "Matikan bot",
-            "SHUTDOWN_MSG": "```Mematikan... ⛔```",
+            "RESTART_DESC": "Mulai ulang WhatsAsena",
+            "RESTART_MSG": "```memulai ulang harap tunggu...```",
+            "SHUTDOWN_DESC": "Matikan WhatsAsena",
+            "SHUTDOWN_MSG": "```mematikan ⛔```",
             "DYNO_DESC": "Periksa penggunaan heroku dyno",
-            "DYNO_TOTAL": "```Total dyno```",
-            "DYNO_USED": "```Dyno terpakai```",
+            "DYNO_TOTAL": "```Total Kuota```",
+            "DYNO_USED": "```Kuota terpakai```",
             "PERCENTAGE": "```Persentase```",
-            "DYNO_LEFT": "```Dyno tersisa bulan ini: ```",
-            "SETVAR_DESC": "Atur heroku config var",
+            "DYNO_LEFT": "```Sisa```",
+            "SETVAR_DESC": "Set heroku config var",
             "SET_SUCCESS": "Berhasil disetel ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "```Tidak ditemukan```",
-            "INVALID": "```Format tidak valid: format nilai```",
-            "GETVAR_DESC": "Cek heroku config var",
-            "DELVAR_DESC": "Hapus heroku config var",
+            "KEY_VAL_MISSING": "```Baik Kunci atau Nilai tidak ada```",
+            "INVALID": "```Kunci tidak valid: format nilai```",
+            "GETVAR_DESC": "Dapatkan heroku config var",
+            "DELVAR_DESC": "menghapus heroku config var",
             "DEL_SUCCESS": "```{} berhasil dihapus```",
-            "NOT_FOUND": "```Tidak ditemukan!```"           
+            "NOT_FOUND": "```tidak ada hasil yang ditemukan untuk kunci ini```"           
         },
         "nekobin": {
             "NEKO_DESC": "Pesan yang dibalas akan ditambahkan ke nekobin.com.",
@@ -86,7 +86,7 @@
             "MUST_TEXT": "```Harap balas pesan apa pun```"
         },
         "filters": {
-            "FILTER_DESC": "Menambahkan filter. Jika seseorang menulis kata yang ada dalam filter Anda, maka bot akan membalas dengan jawabannya. Jika Anda hanya menulis .filter, maka akan menunjukkan daftar filter Anda.```",
+            "FILTER_DESC": "Itu menambahkan filter. Jika seseorang menulis filter Anda, itu mengirimkan jawabannya. Jika Anda hanya menulis .filter, itu menunjukkan daftar filter Anda.",
             "NO_FILTER": "*❌ Tidak ada filter dalam obrolan ini!*",
             "FILTERS": "*🔎 Filter Anda dalam obrolan ini::*",
             "NEED_REPLY": "*❌ Silahkan ketik dibalasan!*\n*Contoh:*",
@@ -97,13 +97,13 @@
             "DELETED": "*✅ Filter berhasil dihapus!*"
         },
         "greetings": {
-            "WELCOME_DESC": "Menyetel pesan selamat datang.",
+            "WELCOME_DESC": "Ini Menyetel pesan selamat datang. Jika Anda membiarkannya kosong, itu menunjukkan pesan selamat datang.",
             "NOT_SET_WELCOME": "*Anda belum menyetel pesan selamat datang.!*\n**Untuk menyetel:** ```.welcome Pesan selamat datang darimu```",
             "WELCOME_ALREADY_SETTED": "*✅ Pesan selamat datang sudah disetel!*\n*Pesan:* ```",
             "NEED_WELCOME_TEXT": "*Anda harus menulis pesan untuk Menyetel pesan selamat datang.*\n*Contoh:* ```.welcome Selamat Datang!```",
             "WELCOME_DELETED": "*✅ Pesan selamat datang berhasil dihapus!*",
             "WELCOME_SETTED": "*✅ Pesan selamat datang berhasil disetel!*",
-            "GOODBYE_DESC": "Menyetel pesan selamat tinggal.",
+            "GOODBYE_DESC": "Menyetel pesan selamat tinggal. Jika Anda biarkan kosong, itu menunjukkan pesan selamat tinggal.",
             "NOT_SET_GOODBYE": "*Anda tidak menyetel pesan selamat tinggal!*\n*Untuk menyetel:* ```.goodbye Pesan selamat tinggal darimu```",
             "GOODBYE_ALREADY_SETTED": "*✅ Pesan selamat tinggal telah disetel.!*\n*Pesan:* ```",
             "NEED_GOODBYE_TEXT": "*Anda harus menulis pesan untuk menyetel pesan selamat tinggal.*\n*Contoh:* ```.goodbye Selamat Tinggal!```",
@@ -124,7 +124,7 @@
             "KICKME_DESC": "Menendangmu Keluar dari grup!",
             "KICKME": "```Sampai jumpa! Saya pergi 🤠```",
             "PP_DESC": "Menjadikan foto yang anda balas dengan menulis .pp sebagai foto profil anda.",
-            "NEED_PHOTO": "*Balas ke foto!*",
+            "NEED_PHOTO": "*Beri aku foto!*",
             "PPING": "```Menyetel foto profil...```"
         },
         "removebg": {
@@ -136,45 +136,45 @@
         "scrapers": {
             "TRANSLATE_DESC": "Diterjemahkan dengan Google Translate. Balas pesan apapun.",
             "TRANSLATE_USAGE": ".trt en id (Dari Inggris ke Indonesia)",
-            "NEED_REPLY": "```Harap balas pesan!```",
-            "LANG": "Ke",
-            "FROM": "Dari",
+            "NEED_REPLY": "```Harap balas pesan apapun!```",
+            "LANG": "Bahasa",
+            "FROM": "Bahasa yang Diterjemahkan",
             "RESULT": "Diterjemahkan",
             "TRANSLATE_ERROR": "\"❌ Terjadi kesalahan dalam terjemahan!*",
-            "CURRENCY_ERROR": "```Format salah! Contoh: .currency 1 USD IDR```",
+            "CURRENCY_ERROR": "```Kesalahan sintaks! Contoh: .currency 1 USD IDR```",
             "INVALID_CURRENCY": "```Pengonversian mata uang gagal. Anda menulis mata uang yang salah!```",
             "UNKNOWN_ERROR": "```Terjadi kesalahan. Pengonversian mata uang gagal!```",
             "TTS_DESC": "Ini mengubah teks menjadi suara.",
             "TTS_ERROR": "```Kesalahan, Contoh ucapan kalimat Anda tidak dapat dibuat!```",
-            "SONG_DESC": "Mendownload lagu dari YouTube atau Spotify.",
-            "NEED_TEXT_SONG": "*Format salah!*\n*Contoh:* ```.ripaudio matamu cover - stephanie poetri``` atau "```.ripaudio (link YT)```,
+            "SONG_DESC": "Mengunggah lagu yang Anda tulis.",
+            "NEED_TEXT_SONG": "*Harap tulis sebuah lagu!*\n*Contoh:* ```.song matamu cover - stephanie poetri```",
             "NO_RESULT": "*Saya tidak dapat menemukan apa pun :(*",
-            "DOWNLOADING_SONG": "```Mendownload lagu...```",
-            "UPLOADING_SONG": "```Mengupload lagu...```",
-            "VIDEO_DESC": "Mendownload video dari YouTube.",
-            "NEED_VIDEO": "*Harap masukkan link video!*\n*Contoh:* ```.ripvideo https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Mendownload video...```",
-            "UPLOADING_VIDEO": "```Mengupload video...```",
-            "YT_DESC": "Mencari di YouTube.",
+            "DOWNLOADING_SONG": "```Mengunduh lagu Anda...```",
+            "UPLOADING_SONG": "```Mengunggah lagu Anda...```",
+            "VIDEO_DESC": "Unduh video dari YouTube.",
+            "NEED_VIDEO": "*Harap masukkan tautan video!*\n*Contoh:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
+            "DOWNLOADING_VIDEO": "```Mengunduh lagu Anda...```",
+            "UPLOADING_VIDEO": "```Mengunggah lagu Anda...```",
+            "YT_DESC": "Ini mencari di YouTube.",
             "NEED_WORDS": "```Tolong tuliskan beberapa kata!```",
-            "GETTING_VIDEOS": "```Mencari ...```",
+            "GETTING_VIDEOS": "```Saya membawa video ...```",
             "NOT_FOUND": "*Saya tidak dapat menemukan apa pun :(*",
             "SEARCHING": "*🔎 Mencari ...*",
             "WIKI_DESC": "Mencari di Wikipedia.",
-            "IMG_DESC": "Mengambil foto dari Google.",
+            "IMG_DESC": "Mengambil foto Google.",
             "IMG": "Mengupload foto```{}``` number ```{} `..."
         },
         "sticker": {
-            "STICKER_DESC": "Mengubah foto atau video menjadi stiker.",
+            "STICKER_DESC": "Ini mengubah foto atau video yang Anda balas dengan mengetik .sticker menjadi stiker.",
             "NEED_REPLY": "*Balas ke foto atau video!*",
-            "DOWNLOADING": "```Sedang mencurry stiker...```"
+            "DOWNLOADING": "```Mengunduh media & menjadikannya stiker...```"
         },
         "system_stats": {
             "ALIVE_DESC": "Apakah bot berfungsi?",
             "SYSD_DESC": "Menunjukkan properti sistem."
         },
         "tagall": {
-            "TAGALL_DESC": "Mengetag semua orang di grup."
+            "TAGALL_DESC": "Menandai semua orang di grup."
         },
         "updater": {
             "UPDATER_DESC": "Periksa pembaruan.",
@@ -198,7 +198,7 @@
             "NOT_FOUND": "```Saya tidak bisa menemukan kota dengan nama ini. 😖```"
         },
         "web": {
-            "SPEEDTEST_DESC": "Menguji kecepatan download dan upload.",
+            "SPEEDTEST_DESC": "Menguji kecepatan Unduhan dan Unggahan.",
             "SPEEDTESTING": "```Menguji kecepatan...```",
             "SPEEDTEST_RESULT": "*Uji kecepatan selesai!*",
             "UPLOAD": "Unggah",
