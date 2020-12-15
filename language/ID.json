@@ -53,9 +53,9 @@
             "IM_NOT_AFK": "```Saya tidak lagi AFK!```",
             "AFK_TEXT": "```Hai! Ini adalah pesan otomatis dari bot. Mohon tunggu majikanku untuk membalas.```",
             "AFK_TEXT_NOMD": "Hai! Ini adalah pesan otomatis dari bot. Mohon tunggu majikanku untuk membalas.",
-            "HOUR": "j",
-            "MINUTE": "m",
-            "SECOND": "d"
+            "HOUR": "jam",
+            "MINUTE": "menit",
+            "SECOND": "detik"
         },
         "evaluators": {
             "TERM_DESC": "Jalankan perintah terminal.",
@@ -70,7 +70,7 @@
             "DYNO_TOTAL": "```Total dyno```",
             "DYNO_USED": "```Dyno terpakai```",
             "PERCENTAGE": "```Persentase```",
-            "DYNO_LEFT": "```Sisa```",
+            "DYNO_LEFT": "```Dyno tersisa bulan ini: ```",
             "SETVAR_DESC": "Atur heroku config var",
             "SET_SUCCESS": "Berhasil disetel ```{} ➜ {}```",
             "KEY_VAL_MISSING": "```Tidak ditemukan```",
