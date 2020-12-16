@@ -163,7 +163,7 @@
             "SEARCHING": "*🔎 Mencari ...*",
             "WIKI_DESC": "Mencari di Wikipedia.",
             "IMG_DESC": "Mencari gambar dari Google.",
-            "IMG": "Mengupload gambar```{}``` number ```{} `..."
+            "IMG": "Menampilkan ```{}``` gambar teratas dari ```{}```."
         },
         "sticker": {
             "STICKER_DESC": "Mengubah foto atau video menjadi stiker.",
