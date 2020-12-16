@@ -49,10 +49,10 @@
             "IM_AFK": "*Saya AFK sekarang!*",
             "IM_AFK_NOMD": "Saya AFK sekarang!",
             "REASON": "Alasan",
-            "LAST_SEEN": "Terakhir dilihat",
+            "LAST_SEEN": "Sejak",
             "IM_NOT_AFK": "```Saya tidak lagi AFK!```",
-            "AFK_TEXT": "```Hai! Ini adalah pesan otomatis dari bot. Mohon tunggu majikanku untuk membalas.```",
-            "AFK_TEXT_NOMD": "Hai! Ini adalah pesan otomatis dari bot. Mohon tunggu majikanku untuk membalas.",
+            "AFK_TEXT": "```Hai! Ini adalah pesan otomatis dari bot.\nSaat ini majikanku sedang AFK, mohon tunggu majikanku untuk membalas!```",
+            "AFK_TEXT_NOMD": "Hai! Ini adalah pesan otomatis dari bot.\nSaat ini majikanku sedang AFK, mohon tunggu majikanku untuk membalas!",
             "HOUR": "jam",
             "MINUTE": "menit",
             "SECOND": "detik"
