@@ -27,6 +27,7 @@
             "DELETED": "*✅ Modul berhasil dihapus! Anda harus memulai ulang agar perubahan diterapkan.*"
         },
         "admin": {
+            "ADMIN_DESC": "Admin",
             "BAN_DESC": "Membanned seseorang dalam grup.",
             "IM_NOT_ADMIN": "*Saya bukan admin di grup ini!*",
             "BANNED": "dikeluarkan dari grup!",
