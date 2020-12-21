@@ -16,7 +16,7 @@ const Lang = Language.getString('_asena');
 
 Asena.addCommand({ pattern: 'help', fromMe: true, dontAddCommandList: true }, (async(message, match) => {
     await message.sendMessage(Lang.DESC + '\n\n' +
-        '👨‍✈️ *admin*: ```admin```\n\n🎨 *fun*: ```sticker```\n\n⚙️ *misc*:```currency  img  youtube  tts  translate  wiki ```\n\n🧰 *tools*: ```alive  ping  repo  heroku  speedtest  sysd  term  updater  filter```\n\n🗂 *utils*: ```afk  nekobin  profile  removebg  weather```\n\n' +
+        '👨‍✈️ *admin*: ```admin```\n\n🎨 *fun*: ```sticker```\n\n⚙️ *misc*: ```currency  img  youtube  tts  translate  wiki ```\n\n🧰 *tools*: ```alive  ping  repo  heroku  speedtest  sysd  term  updater  filter```\n\n🗂 *utils*: ```afk  nekobin  profile  removebg  weather```\n\n' +
         Lang.CMDUSAGE + ' ```.help(plugin)```', MessageType.text
     );
 }));

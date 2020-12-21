@@ -25,8 +25,16 @@ async function checkImAdmin(message, user = message.client.user.jid) {
 
 Asena.addCommand({ pattern: 'helpadmin', fromMe: true, dontAddCommandList: true }, (async(message, match) => {
     await message.sendMessage(Lang.ADMIN_DESC + '\n\n' +
-        '*.promote* (tag/reply)\n' + Lang.PROMOTE_DESC + '\n*.demote* (tag/reply)\n' + Lang.DEMOTE_DESC + '\n*.ban* (tag/reply)\n' + Lang.BAN_DESC + '\n*.invite* (number)\n' + Lang.ADD_DESC + '\n*.lock*\n' + Lang.MUTE_DESC + '\n*.unlock*\n' + Lang.UNMUTE_DESC + '\n*.invitelink*\n' + Lang.INVITE_DESC + ' ', MessageType.text);
+        '*.promote* (tag/reply)\n' + Lang.PROMOTE_DESC + '\n\n' +
+        '*.demote* (tag/reply)\n' + Lang.DEMOTE_DESC + '\n\n' +
+        '*.ban* (tag/reply)\n' + Lang.BAN_DESC + '\n\n' +
+        '*.invite* (number)\n' + Lang.ADD_DESC + '\n\n' +
+        '*.lock*\n' + Lang.MUTE_DESC + '\n\n' +
+        '*.unlock*\n' + Lang.UNMUTE_DESC + '\n\n' +
+        '*.invitelink*\n' + Lang.INVITE_DESC + ' ', MessageType.text
+    );
 }));
+
 
 Asena.addCommand({ pattern: 'ban ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.BAN_DESC }, (async(message, match) => {
     var im = await checkImAdmin(message);
