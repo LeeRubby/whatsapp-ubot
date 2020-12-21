@@ -8,7 +8,9 @@
             "COMMAND": "Perintah",
             "DESC": "Deskripsi",
             "EXAMPLE": "Contoh",
-            "NOT_FOUND": "*Saya tidak dapat menemukan perintah seperti ini*"
+            "NOT_FOUND": "*Saya tidak dapat menemukan perintah seperti ini*",
+            "CMDLIST": "*Daftar perintah:*",
+            "USAGE": "*Penggunaan:*"
         },
         "_plugin": {
             "INSTALL_DESC": "Penginstalan plugin.",

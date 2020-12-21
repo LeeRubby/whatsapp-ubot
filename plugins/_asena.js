@@ -8,25 +8,35 @@ WhatsAsena - Yusuf Usta
 
 const Asena = require('../events');
 const Config = require('../config');
-const {MessageType} = require('@adiwajshing/baileys');
+const { MessageType } = require('@adiwajshing/baileys');
 
 const Language = require('../language');
+const { LANG } = require('../config');
 const Lang = Language.getString('_asena');
 
-Asena.addCommand({pattern: 'usrhelp ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({ pattern: 'help', fromMe: true, dontAddCommandList: true }, (async(message, match) => {
+    await message.sendMessage(Lang.DESC + '\n' +
+        '👨‍✈️ *admin*: ```admin```\n🎨 *fun*: ```sticker```\n⚙️ *misc*:```currency   img   youtube   tts   translate   wiki ```\n🧰 *tools*: ```alive   ping   repo   heroku   speedtest   sysd   term   updater   filter```\n🗂 *utils*: ```afk   nekobin   profile   removebg   weather```\n' +
+        LANG.USAGE + '```.help_(plugin)```', MessageType.text
+    );
+}));
+
+
+
+Asena.addCommand({ pattern: 'usrhelp ?(.*)', fromMe: true, dontAddCommandList: true }, (async(message, match) => {
     var CMD_HELP = '';
     if (match[1] === '') {
         Asena.commands.map(
-            async (command) =>  {
-                if (command.dontAddCommandList || command.pattern === undefined) return;
+            async(command) => {
+                if (command.dontAddCommandList ||  command.pattern === undefined) return;
                 try {
                     var match = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç]*)/);
                 } catch {
                     var match = [command.pattern];
                 }
-    
+
                 var HANDLER = '';
-    
+
                 if (/\[(\W*)\]/.test(Config.HANDLERS)) {
                     HANDLER = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
                 } else {
@@ -37,24 +47,24 @@ Asena.addCommand({pattern: 'usrhelp ?(.*)', fromMe: true, dontAddCommandList: tr
                 if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
             }
         );
-        
+
         await message.client.sendMessage(
             message.jid, CMD_HELP, MessageType.text
-        );    
+        );
     } else {
         var CMD_HELP = '';
         Asena.commands.map(
-            async (command) =>  {
-                if (command.dontAddCommandList || command.pattern === undefined) return;
+            async(command) => {
+                if (command.dontAddCommandList ||  command.pattern === undefined) return;
                 try {
                     var cmatch = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç]*)/);
                 } catch {
                     var cmatch = [command.pattern];
                 }
-                
+
                 if (cmatch[2] == match[1]) {
                     var HANDLER = '';
-    
+
                     if (/\[(\W*)\]/.test(Config.HANDLERS)) {
                         HANDLER = Config.HANDLERS.match(/\[(\W*)\]/)[1][0];
                     } else {
@@ -62,7 +72,7 @@ Asena.addCommand({pattern: 'usrhelp ?(.*)', fromMe: true, dontAddCommandList: tr
                     }
                     CMD_HELP += '*🛠 ' + Lang.COMMAND + ':* ' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
                     if (command.desc !== '') CMD_HELP += '*💬 ' + Lang.DESC + ':* ' + command.desc + (command.usage === '' ? '\n\n' : '\n');
-                    if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';    
+                    if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ' + command.usage + '\n\n';
                 }
             }
         );
