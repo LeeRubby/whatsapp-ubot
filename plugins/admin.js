@@ -23,7 +23,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-Asena.addCommand({ pattern: 'help_admin', fromMe: true, dontAddCommandList: true }, (async(message, match) => {
+Asena.addCommand({ pattern: 'help-admin', fromMe: true, dontAddCommandList: true }, (async(message, match) => {
     await message.sendMessage(
         '```.help admin```\n\n*.promote* (tag/reply)\n' + Lang.PROMOTE_DESC +
         '\n*.demote* (tag/reply)\n' + Lang.DEMOTE_DESC +

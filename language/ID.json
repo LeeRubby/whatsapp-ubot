@@ -10,7 +10,7 @@
             "EXAMPLE": "Contoh",
             "NOT_FOUND": "*Saya tidak dapat menemukan perintah seperti ini*",
             "CMDLIST": "*Daftar perintah:*",
-            "USAGE": "*Penggunaan:*"
+            "CMDUSAGE": "*Penggunaan:*"
         },
         "_plugin": {
             "INSTALL_DESC": "Penginstalan plugin.",
